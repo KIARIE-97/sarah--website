@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <title>my portifolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <header>
+    <b
+      ><i
+        ><marquee behavior="slide" direction="left"
+          >......MY PORTIFOLIO WEBSITE......</marquee
+        ></i
+      ></b
+    >
+  </header>
+
+  <body>
+<div id="header">
+    <div class="container">
+      <nav>
+        <ul>
+      <li><a href="#header">Home</a></li>
+      <li><a href="#about ">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <h1> Hi, i am <span>sarah kiarie</span><br> a software developer.</h1>
+      </div>
+    </div>
+</div>
+
+<div id="about">
+  <div class="container">
+  <div class="rows">
+  <div class="about-col1">
+    <img src="animated me.jpg">
+  </div>
+  <div class="about-col2">
+    <h1 class="subtittle">About Me</h1>
+    <p>I am an aspiring Software Engineer with a passion for developing innovative programs that expedite efficiency and effectiveness for organizational success.
+      I am creative and self-motivating Software Engineering student keen to integrate my skills with my ability to provide service at optimum speed and cost.
+       Persistent to achieve set goals and objectives in my career path.</p>
+
+       <div class="tab-tittles">
+        <p class="tab-links active-link " onclick="opentab('skills')" >skills</p>
+        <p class="tab-links" onclick="opentab('education')" >education</p>
+        </div>
+        <div class="tab-contents active-tab" id ="skills" >
+          <ul>
+            <li><span>web development</span><br>web apps development</li>
+            <li><span>system development</span><br>developing systems as well as maitenance</li>
+          </ul>
+          <div class="tab-contents" id="education">
+          <ul>
+            <li><span>SEPT 2021 TO DATE</span><br>BACHELOR OF SCIENCE IN SOFTWARE ENGINEERING: KIRINYAGA UNIVERSITY</li>
+            <li><span>2017 TO 2021</span><br>MT.KINANGOP GIRLS HIGH SCHOOL</li>
+          </ul>
+          </div>
+        </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="subtittle">contact me</h1>
+        <p>sarahwanjiruki1@gmail.com</p>
+        <p>0111611737</p>
+        
+      </div>
+      <div class="contact-right">
+        <form>
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your email" required>
+          <textarea name="message" rows="6"placeholder="your message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <script src="web.js"></script>
+  </body>
+</html>
